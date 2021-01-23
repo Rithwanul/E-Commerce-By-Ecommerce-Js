@@ -3,25 +3,25 @@ import { Grid } from '@material-ui/core';
 import Product from './Product/Product';
 import useStyles from './styles';
 
-const products = [
-    { 
-        id              :           1, 
-        name            :           'Shoes',  
-        price           :           '$10.35', 
-        description     :           'This is a running shoes',
-        image           :           'https://cdn.shopify.com/s/files/1/0419/1525/files/1400x1000-Best-Mens-Boots-Wingtip-Color77_768x544.jpg?v=1581450931'
-    },
-    { 
-        id              :           2, 
-        name            :           'iPhone', 
-        price           :           '$100.305', 
-        description     :           'Exclusive Collection iPhone 11',
-        image           :           'https://media.wired.com/photos/5e9721955cf5b3000849ce73/master/w_2560%2Cc_limit/Gear-iPhone_SE-Blk_HeroVertical_Campaign_Screen.jpg'
-    }
-];
+// const products = [
+//     { 
+//         id              :           1, 
+//         name            :           'Shoes',  
+//         price           :           '$10.35', 
+//         description     :           'This is a running shoes',
+//         image           :           'https://cdn.shopify.com/s/files/1/0419/1525/files/1400x1000-Best-Mens-Boots-Wingtip-Color77_768x544.jpg?v=1581450931'
+//     },
+//     { 
+//         id              :           2, 
+//         name            :           'iPhone', 
+//         price           :           '$100.305', 
+//         description     :           'Exclusive Collection iPhone 11',
+//         image           :           'https://media.wired.com/photos/5e9721955cf5b3000849ce73/master/w_2560%2Cc_limit/Gear-iPhone_SE-Blk_HeroVertical_Campaign_Screen.jpg'
+//     }
+// ];
 
 
-const Products = () => {
+const Products = ( { products } ) => {
 
     const classes = useStyles();
 
